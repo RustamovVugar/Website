@@ -240,6 +240,11 @@
     overflow: auto;
     margin-top: 15px;
 }
+#news .right .end_news{
+    color: #057eb3;
+    padding-left: 20px;
+    font-size: 20px;
+}
 
 
 .new_list_wrapper .first, .second, .third, .fourth, .fifth, .sixth, .seventh,.eighth, .ninth, .tenth{
@@ -258,14 +263,6 @@
     text-align: center;
 }
 
-
-#news .right .first {
-    /* width: 280px;
-    height: 50px;
-    border: 1px solid rebeccapurple;
-    border-radius: 5px; */
-}
-
 #news .right ul {
     list-style: none;
 }
@@ -277,16 +274,46 @@
     text-decoration: none;
 }
 
-
-#highlights .down .items .item{
-width: 100px;
-height: 300px;
+#highlights .before{
+    margin-top: 80px;
+    margin-left: 20px;
 }
-#highlights .down .items .item .new_card .new_img img{
+
+
+#highlights .up {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+#highlights .up .came_before{
+    font-size: 25px;
+    color:#00415c;
+    display: flex;
+}
+#highlights .up .icons{
+    display: flex;
+    margin-top: 10px;
+}
+#highlights .up .icons i{
+    margin-left: 20px;
+    color: #00415c;
+    font-size: 20px;
+    display: flex;
+}
+#highlights .before .down .items .item1, .item2, .item3, .item4{
+width: 50px;
+height: 500px;
+
+}
+#highlights .before .down .items .item1 .new_card .new_img img{
 width: 100%;
 height: 100%;
 }
-
+#highlights .before .down .items .item2 .new_card .new_img img{
+    width: 100%;
+    height: 100%;
+    }
 
 
 
